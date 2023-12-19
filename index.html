@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>University Website</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text1">
+            <h1>Richest University</h1>
+            <p>Making the Website is one of the easiest thing in the world.<br> you just need to learn html,css and javascript is one the easy way</p>
+            <a href="" class="head-button">Visit us know to more</a>
+        </div>
+    </section>
+    
+</body> 
+
+<!--course section-->
+<section class="course">
+    <h1>Courses we offered</h1>
+    <p>Html CSS and javascript</p>
+    <div class="rows">
+        <div class="cols">
+            <h2>HTML</h2>
+            <p>HTML stands for Hypertext Markup Language. 
+                It's a standard markup language for creating web pages. 
+                HTML is a text-based approach for describing how content is structured within an HTML file.
+                 It tells a web browser how to display text, images, and other forms of multimedia on a webpage</p>
+        </div>
+        <div class="cols">
+            <h2>CSS</h2>
+            <p>CSS stands for Cascading Style Sheets. 
+                It's a computer language used to structure and lay out web pages. 
+                CSS is a stylesheet language that helps designers customize the appearance of websites</p>
+        </div>
+        <div class="cols">
+            <h2>javascript</h2>
+            <p>JavaScript is a high-level, interpreted programming language. 
+                It is one of the three core technologies of the World Wide Web, along with HTML and CSS. 
+                JavaScript is used to make web pages interactive and dynamic, and to provide functionality for a wide range of web applications.</p>
+        </div>
+
+    </div>
+</section>
+<section class="campus">
+    <h1>Our Campus</h1>
+    <div class="campus_row">
+        <div class="campus_col">
+            <img src="london.png">
+            <div class="layer">
+                <h3>BTM</h3>
+            </div>
+        </div>
+        <div class="campus_col">
+            <img src="newyork.png">
+            <div class="layer">
+                <h3>HSR LAYOUT</h3>
+            </div>
+        </div>
+        <div class="campus_col">
+            <img src="washington.png">
+            <div class="layer">
+                <h3>RAJATHI NAGAR</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!--facilities-->
+<section class="facilities">
+    <h3>Our Facilities</h3>
+    <p>We help you to build carrer</p>
+
+    <div class="fac_row">
+        <div class="fac_col">
+            <img src="library.png">
+            <h3>World Class Library</h3>
+            <p> Libraries provide physical (hard copies) or digital (soft copies) materials, 
+                and may be a physical location, a virtual space, or both.</p>
+        </div>
+        <div class="fac_col">
+            <img src="basketball.png">
+            <h3>World Class Library</h3>
+            <p> Basketball is a game played by two teams of five players on a rectangular court. 
+                The goal is to score points by throwing the ball through a raised net at the opponent's end of the court. </p>
+        </div>
+        <div class="fac_col">
+            <img src="cafeteria.png">
+            <h3>World Class Library</h3>
+            <p> A cafeteria is a restaurant where customers choose their food from a counter and 
+                carry it to their table after paying for it.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="test">
+    <h2>What our students says</h2>
+    <div class="test_row">
+        <div class="test_col">
+            <img src="user1.jpg" alt="">
+            <div><p>The quality of placements at our college is so good.
+                 Last year around 30% to 50% students were placed.
+                 The highest salary package was 24lakh per annum. 
+                 Also the college is very supportive in this case</p>
+                 <h3>Arha</h3>
+                </div>
+        </div>
+        <div class="test_col">
+            <img src="user2.jpg" alt="">
+            <div><p>Even with pretty high academic fees the teaching process was also very worth every penny. The lecturers were supportive from the start of my Bachelors
+                . Moreover, there are rarely any cases when it did not happen.</p>
+                <h3>Arjun</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="contact">
+    <h3>Enroll our courses contact us</h3>
+    <br>                                        
+    <a href="">Contact Us</a>
+</section>
+<section class="footer">
+    <h2>About us</h2>
+    <p>One of the Unique features of Tap Academy is the use of Augmented Reality in our training.  Through this concepts are visualized using cutting-edge animation to ensure an in-depth
+         understanding of the concepts & experience the pure joy of learning as well as upskilling your coding skills</p>
+    
+</section>
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</html>
