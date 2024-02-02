@@ -20,6 +20,13 @@ nav{
 nav img{
     width: 150px;
 }
+.logo1{
+    text-decoration:none;
+    color:white;
+}
+.logo1 h3{
+color:white;
+}
 .nav-links{
 
     flex: 1;
